@@ -21,13 +21,13 @@
                 <input type="submit" value="Lab1">
             </form> 
         </div>
- <%--      
+    
         <div>
             <form action="lab2form.jsp">  
                 <input type="submit" value="Lab2">
             </form> 
         </div>
-
+<%--  
         <div>
             <form action="lab3.jsp">  
                 <input type="submit" value="Lab3">
