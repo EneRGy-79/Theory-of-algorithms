@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Lab2View {
 
-    DecimalFormat df = new DecimalFormat("###.##");
+    DecimalFormat df = new DecimalFormat("###.###");
 
     public String showResult(String xString) {
         if (xString.equals("")) {
