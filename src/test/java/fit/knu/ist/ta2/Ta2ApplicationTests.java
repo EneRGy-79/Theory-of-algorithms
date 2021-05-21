@@ -14,6 +14,6 @@ class Ta2ApplicationTests {
         assertTrue(Float.MAX_VALUE != calculator.lab2equation(2));
 //        assertEquals(-0.071, calculator.lab2equation(0.5));
 //        assertEquals(0.179, calculator.lab2equation(2));
-        assertFalse(5 == calculator.lab2equation(3));
+        assertTrue(0.064 == calculator.lab2equation(2));
     }
 }

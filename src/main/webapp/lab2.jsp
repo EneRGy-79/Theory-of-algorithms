@@ -12,18 +12,19 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Results!</h1>
         
         <p><%=request.getAttribute("result")%></p>
         
         <div>
-            <form action="lab2form.jsp">  
+            <form action="lab2form.jsp" method="post">  
                 <input type="submit" value="New x">
             </form> 
         </div>
         
         <div>
-            <form action="index.jsp">  
+            <form action="index.jsp">          
+
                 <input type="submit" value="Home">
             </form> 
         </div>
