@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/*package fit.knu.ist.ta2.lab3;
+package fit.knu.ist.ta2.lab3;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -13,13 +13,13 @@ import java.util.Random;
  *
  * @author Ivan
  */
-/*
-}
-public class Fibonacci {
+
+
+/*public class Fibonacci {
     public static long fib(int n) {
         if (n <= 1) return n;
         else return fib(n-1) + fib(n-2);
-    }
+  
 int n0, n1, buff;
 for(if buff < 50)
 {
@@ -27,7 +27,7 @@ buff = n1;
 n1 += n0;
 n0 = buff;
 }*/
-/*public class Lab3 {
+public class Lab3 {
     private int arrayLength;
     private int lowerBorder;
     private int upperBorder;
@@ -38,8 +38,8 @@ n0 = buff;
     {
         arrayLength = 50;
         lowerBorder = 1;
-        upperBorder = k;
-        numberToSearch = Fibonacci;
+        upperBorder = 50;
+        numberToSearch = 5;
         array = new int[arrayLength];
     }
     
@@ -76,5 +76,5 @@ n0 = buff;
     {
         return Arrays.toString(array);
     }
-}*/
+}
 

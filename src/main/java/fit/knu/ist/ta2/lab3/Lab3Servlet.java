@@ -10,7 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import fit.knu.ist.ta2.lab3.Lab3View;
+import fit.knu.ist.ta2.lab3.Lab3View;*/
 
 /**
  *
@@ -38,10 +38,10 @@ import fit.knu.ist.ta2.lab3.Lab3View;
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    /*@Override
+   /* @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-    }
+    }*/
 
     /**
      * Handles the HTTP <code>POST</code> method.
@@ -69,7 +69,7 @@ import fit.knu.ist.ta2.lab3.Lab3View;
         request.setAttribute("result", result);
         
         request.getRequestDispatcher("lab3.jsp").forward(request, response);
-    }
+    }*/
 
     /**
      * Returns a short description of the servlet.
