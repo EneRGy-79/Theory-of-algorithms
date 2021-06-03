@@ -3,6 +3,7 @@ package fit.knu.ist.ta2;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import fit.knu.ist.ta2.lab3.Lab3;
 import fit.knu.ist.ta2.lab5.Lab5_2;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
@@ -24,6 +25,17 @@ class Ta2ApplicationTests {
     @Test
     void contextLoads() {
     }
+  //  @Test
+    /*void Laba3Test()
+    {
+        Lab3 lab3 = new Lab3(-5);
+        assertEquals(20, lab3.GetArrayLength());
+        lab3 = new Lab3(10);
+        lab3.InitArray();
+        assertEquals("[1, 1, 2, 3, 5, 8, 13, 21, 34, 55]", lab3.DisplayArray());
+        assertEquals("3", lab3.GetNumber(4));
+        assertEquals("Out of range!", lab3.GetNumber(-1));
+    }*/
     
     @Test
     void Laba5Test()

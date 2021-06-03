@@ -5,7 +5,7 @@
 --%>
 
 <%@page import="fit.knu.ist.ta2.lab5.Lab5_1"%>
-<%@page import="fit.knu.ist.ta2.lab5.Lab5_1"%>
+<%@page import="fit.knu.ist.ta2.lab5.Lab5_2"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

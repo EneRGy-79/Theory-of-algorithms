@@ -4,26 +4,20 @@
     Author     : Ivan
 --%>
 
-    <%@page contentType="text/html" pageEncoding="UTF-8" import="fit.knu.ist.ta2.lab3.Lab3"%>
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-            <title>JSP Page</title>
-        </head>
-        <body>
-            <h1>Результат</h1>
-            <p><%= request.getAttribute("result") %></p>
-                <div>
-                    <form action="lab3form.jsp">
-                        <input type="submit" value="Назад(ввести ще раз k)">
-                    </form>
-                </div>
-        <div>
-            <form action="index.jsp">          
+<%@page import="fit.knu.ist.ta2.lab3.Lab3"%>
 
-                <input type="submit" value="Home">
-            </form> 
-        </div>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Lab 3</title>
+    </head>
+    <body>
+        <a href="index.jsp">Back to landing page</a>
+        <%! Lab3 lab3 = new Lab3();%>
+         <% lab3.InitArray(50); %>
+         <% lab3.InitArrFib(50); %>
+        <p> Numbers: <%= lab3.DisplayArray()%></p>
+        <p> Sum: <%= lab3.CountSum(50)%></p>
+    </body>
+ </html>
