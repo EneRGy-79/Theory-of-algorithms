@@ -18,6 +18,6 @@
          <% lab3.InitArray(50); %>
          <% lab3.InitArrFib(50); %>
         <p> Numbers: <%= lab3.DisplayArray()%></p>
-        <p> Sum: <%= lab3.CountSum(50)%></p>
+        <p> Sum of Fibonacci: <%= lab3.CountSum(50)%></p>
     </body>
  </html>
