@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>My Theory of Algorythyms labs</h1>
-        <p>This is a labs</p>
+        <p>This is my labs</p>
 
         <div>
             <form action="lab1.jsp">          
@@ -21,13 +21,13 @@
                 <input type="submit" value="Lab1">
             </form> 
         </div>
- <%--      
+    
         <div>
             <form action="lab2form.jsp">  
                 <input type="submit" value="Lab2">
             </form> 
         </div>
-
+  
         <div>
             <form action="lab3.jsp">  
                 <input type="submit" value="Lab3">
@@ -39,7 +39,28 @@
                 <input type="submit" value="Lab4">
             </form> 
         </div>
- --%>
+        
+        <div>
+            <form action="lab5.jsp">  
+                <input type="submit" value="Lab5">
+            </form> 
+        </div>
+        
+         <div>
+            <form action="lab6_7.jsp">  
+                <input type="submit" value="Lab6-7">
+            </form> 
+        </div>
+        
+         <div>
+            <form action="lab8.jsp">  
+                <input type="submit" value="Lab8">
+            </form> 
+        </div>
+
+
+
+
 
     </body>
 </html>
