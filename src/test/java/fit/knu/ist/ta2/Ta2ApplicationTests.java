@@ -21,10 +21,6 @@ class Ta2ApplicationTests {
 //        assertEquals(0.179, calculator.lab2equation(2));
         assertTrue(0.064 == calculator.lab2equation(2));
     }
-
-    @Test
-    void contextLoads() {
-    }
   //  @Test
     /*void Laba3Test()
     {
@@ -48,5 +44,33 @@ class Ta2ApplicationTests {
         lab5.SortByStringField();
         assertEquals(3, lab5.jumpSearch("model #11"));
     }
+    @Test
+    void contextLoads() {
+    }
+
+    @Test
+    void testFormula()
+    {
+        assertEquals(0.21212121212121213, fit.knu.ist.ta2.exam.CalcExam.Calculate(3));
+    }
+    
+   /* @Test
+    void testFormulaWithManyArgs()
+    {
+        fit.knu.ist.ta2.exam.FormExam fr = new fit.knu.ist.ta2.exam.FormExam();
+        double[] args = new double[]{3d, 4d, 5d};
+        Math.round(fr.SetArgs(args));
+        assertEquals("[0.21212121212121213, 0.16279069767441862, 0.1320754716981132]", fr.Calculate());
+    }
+    
+    @Test
+    void testSearching()
+    {
+        fit.knu.ist.ta2.exam.FormExam fr = new fit.knu.ist.ta2.exam.FormExam();
+        double[] args = new double[]{3d, 4d, 5d};
+        fr.SetArgs(args);
+        fr.Calculate();
+        assertEquals(0.1320754716981132, fit.knu.ist.ta2.exam.FormExam.SearchResult(4));
+    }*/
 }
 
